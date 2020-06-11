@@ -1,0 +1,92 @@
+html, body { margin: 0; padding: 0; }
+* { box-sizing: border-box; }
+
+body {
+  background: #FBFBFB;
+  position: absolute;
+  top: 20px;
+  width: 100vw;
+  height: 97vh;
+  grid-template-rows: auto 1fr;
+}
+
+.grid {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 97vh;
+  min-width: 719px;
+}
+
+.darkGray {
+  background: #434345;
+}
+
+.darkText {
+  color: #434345;
+}
+
+.avatar {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.lightText {
+  color: #FBFBFB;
+}
+
+.text {
+  margin: 20px;
+}
+
+.lightList {
+  color: #FBFBFB;
+  margin-left: 50px;
+}
+
+.whiteBg {
+  background: #FBFBFB;
+}
+
+.listItem {
+  margin-left: -30px;
+  margin-top: 5px;
+}
+
+.col-one {
+  min-width: 250px;
+}
+
+.right {
+  float: right;
+}
+
+.icon {
+  margin-left: 20px;
+}
+
+.darkLine {
+  border-top: 1px solid black;
+}
+
+.darkListItem {
+  margin-left: 40px;
+}
+.hr {
+  margin-left: -20px;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
